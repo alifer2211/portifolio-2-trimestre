@@ -445,6 +445,773 @@
 
         <div class="hero-card">
           <div class="photo-box">
+            <img src="./foto-de-ayrton-senna-.jpg" alt="Ayrton Senna do Brasil" id="heroImage">
+            <div class="photo-placeholder">
+              <div>
+            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAINÉIS DOS TRIMESTRES -->
+    <div class="sections">
+
+      <!-- 1º TRIMESTRE -->
+      <section class="panel" id="tri1">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">1º Trimestre</div>
+            <div class="panel-desc">Links e atividades do primeiro trimestre.</div>
+          </div>
+
+          <div class="top-actions">
+            <button class="mini-btn" onclick="voltarInicio()">Voltar ao início</button>
+          </div>
+        </div>
+
+        <div class="panel-body">
+          <div class="image-area">
+          <img src="interlagos.jpg" alt="Ayrton Senna">
+            <div class="image-placeholder">
+            </div>
+          </div>
+          <div class="links-grid" id="linksTri1"></div>
+
+        </div>
+      </section>
+
+      <!-- 2º TRIMESTRE -->
+      <section class="panel" id="tri2">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">2º Trimestre</div>
+            <div class="panel-desc">Links e atividades do segundo trimestre.</div>
+          </div>
+
+          <div class="top-actions">
+            <button class="mini-btn" onclick="voltarInicio()">Voltar ao início</button>
+           
+          </div>
+        </div>
+
+        <div class="image-area">
+        <div class="panel-body">
+            <div class="image-placeholder">,
+            </div>
+          </div>
+ <div class="panel-body">
+          <div class="image-area">
+            <img src="./nürburgring.png" alt="2º trimestre" id="imgTri2">
+            <div class="image-placeholder">
+            </div>
+          </div>
+
+          <div class="links-grid" id="linksTri2"></div>
+        </div>
+      </section>
+
+      <!-- 3º TRIMESTRE -->
+      <section class="panel" id="tri3">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">3º Trimestre</div>
+            <div class="panel-desc">Links e atividades do terceiro trimestre.</div>
+          </div>
+
+          <div class="top-actions">
+            <button class="mini-btn" onclick="voltarInicio()">Voltar ao início</button>
+          </div>
+        </div>
+
+        <div class="panel-body">
+          <div class="image-area">
+            <img src="./monaco.png" alt="3º trimestre" id="imgTri3">
+            <div class="image-placeholder">
+            </div>
+          </div>
+
+          <div class="links-grid" id="linksTri3"></div>
+        </div>
+      </section>
+
+      <div class="footer">
+        Tema inspirado em Ayrton Senna • Layout editável • Portfólio escolar
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // =========================================================
+    // EDITE AQUI OS NOMES, LINKS E DESCRIÇÕES
+    // =========================================================
+
+    const portfolio = {
+      tri1: [
+        {
+          nome: "teste 1 html",
+          descricao: "Tarefa dado em aula para copiar",
+          url: "https://alifer2211.github.io/teste.html/teste.html"
+        },
+        {
+          nome: "jogo da velha html",
+          descricao: "primeiro jogo do ano",
+          url: "https://alifer2211.github.io/jogo/jogo.html"
+        },
+        {
+          nome: "jogo 2048 html",
+          descricao: "Jogo estilo 2048",
+          url: "https://alifer2211.github.io/jogo-2048/jogo.html"
+        },
+        {
+          nome: "Gamma startups html",
+          descricao: "Gamma trabalho .",
+          url: "https://gamma.app/docs/Startups-em-Ascensao-O-Cenario-Brasileiro-de-2026-ndh44uwfr3jec08"
+        },
+        {
+          nome: "Navi war",
+          descricao: "Jogo de navi de guerra.",
+          url: "https://alifer2211.github.io/jogo-de-navi/jogo-de-navi.html"
+        },
+         {
+          nome: "Pac Man html",
+          descricao: "pac man.",
+          url: "https://alifer2211.github.io/pac-man/pac-man.html"
+        },
+         {
+          nome: "QRcode html",
+          descricao: "Site para ler QRcodes.",
+          url: "https://alifer2211.github.io/QRcode/QRcode.html"
+        },
+         {
+          nome: "Trabalho do google docs",
+          descricao: "trabalho de sala do 1 ano.",
+          url:  "https://docs.google.com/document/d/1FHlTUNtBlZlg0fepH-bKu3nuEu_CFbwXvhonR1gdXdM/edit?usp=sharing"
+        },
+         {
+          nome: "Video do google docs do 1ano",
+          descricao: "video do trabalho do google docs do 1 ano.",
+          url: "https://notebooklm.google.com/notebook/789d6ea6-52d7-4dc0-b87e-fb9960ffdd12/artifact/10e3a779-5562-4c94-b4cf-2b29fad48ebb?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_"
+        },
+         {
+          nome: "teste 01 js",
+          descricao: "trabalho de sala.",
+          url: "https://alifer2211.github.io/teste.js/teste.js"
+        },
+         {
+          nome: "teste 02 js",
+          descricao: "trabalho de sala.",
+          url: "https://alifer2211.github.io/teste2.js/teste2.js" 
+        },
+         {
+          nome: "teste 03 js",
+          descricao: "trabalho de sala.",
+          url: "https://alifer2211.github.io/teste3.js/teste3.js"
+        },
+         {
+          nome: "carro js",
+          descricao: "codigo de sala.",
+          url: "https://alifer2211.github.io/carro.js/carro.js"
+        },
+         {
+          nome: "notas js",
+          descricao: "trabalho de sala.",
+          url:  "https://alifer2211.github.io/notas.js/notas.js"
+        },
+         {
+          nome: "media js",
+          descricao: "trabalho de sala.",
+          url: "https://alifer2211.github.io/media/media_se.js"
+        },
+         {
+          nome: "variaveis js",
+          descricao: "trabalho de sala.",
+          url: "https://alifer2211.github.io/variaveis.js/variaveis.js"
+        },
+         {
+          nome: "brake continue js",
+          descricao: "trabalho de sala.",
+          url: "https://miguel09231309.github.io/brake_continue/brake_continue.js"
+        },
+         {
+          nome: "filtrar js",
+          descricao: "trabalho de sala.",
+          url: "https://alifer2211.github.io/filtrar-.js/"
+        },
+         {
+          nome: "colchetes js",
+          descricao: "trabalho de sala.",
+          url: "https://alifer2211.github.io/colchetes-js/"
+        },
+         {
+          nome: "cliente js",
+          descricao: "codigo de sala.",
+          url: "alifer2211.github.io/cliente.js/"
+        },
+         {
+          nome: "alterar js",
+          descricao: "trabalho de sala.",
+          url: "https://alifer2211.github.io/alterar.js/"
+        },
+         {
+          nome: "calculo py",
+          descricao: "primeiro codigo python.",
+          url: "https://alifer2211.github.io/algo.py/calculo.pyt"
+        },
+         {
+          nome: "testes py",
+          descricao: "trabalho de sala.",
+          url: "https://alifer2211.github.io/teste.py/teste.py"
+        },
+         {
+          nome: "desconto py",
+          descricao: "trabalho de sala.",
+          url: "https://alifer2211.github.io/desconto/desconto.py"
+        },
+         {
+          nome: "calculo m² py",
+          descricao: "trabalho de sala.",
+          url: "https://alifer2211.github.io/calculo-m-/calculo m².py"
+        },
+         {
+          nome: "0 a 9999 py",
+          descricao: "trabalho de sala.",
+          url: "https://github.com/alifer2211/0-a-9999.git"
+        },
+         {
+          nome: "nome completo py",
+          descricao: "trabalho de sala.",
+          url: "https://github.com/alifer2211/nome-completo.git"
+        },
+      ],
+
+      tri2: [
+        {
+          nome: "IA Studio Financias",
+          descricao: "Atividade do 2º trimestre controle financeiro.",
+          url: "https://finan-as-investidor10-tracker-315443315994.us-west2.run.app/"
+        },
+        {
+          nome: "IA Studio Duoprogramação",
+          descricao: "Duolingo de Programação.",
+          url: "https://ai.studio/apps/654a82bb-0497-47f7-bcf2-ff49b0f7e3de"
+        }
+      ],
+
+      tri3: [
+        {
+          nome: "Nome do Link 1",
+          descricao: "Atividade do 3º trimestre.",
+          url: "COLE_O_LINK_AQUI"
+        },
+        {
+          nome: "Nome do Link 2",
+          descricao: "Mais um link para o seu portfólio.",
+          url: "COLE_O_LINK_AQUI"
+        }
+      ]
+    };
+
+    // =========================================================
+    // FUNÇÕES
+    // =========================================================
+
+    function criarCards(idBloco, itens) {
+      const bloco = document.getElementById(idBloco);
+      bloco.innerHTML = "";
+
+      itens.forEach((item, index) => {
+        const card = document.createElement("div");
+        card.className = "link-card";
+
+        card.innerHTML = `
+          <div>
+            <h3>${index + 1}. ${item.nome}</h3>
+            <p>${item.descricao}</p>
+          </div>
+          <a href="${item.url}" target="_blank" rel="noopener noreferrer">
+            Abrir link
+          </a>
+        `;
+
+        bloco.appendChild(card);
+      });
+    }
+
+    function esconderTodos() {
+      document.querySelectorAll(".panel").forEach(p => p.classList.remove("active"));
+    }
+
+    function mostrarTrimestre(id) {
+      esconderTodos();
+      document.getElementById(id).classList.add("active");
+      document.getElementById(id).scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    function voltarInicio() {
+      esconderTodos();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    // Monta os cards usando os dados acima
+    criarCards("linksTri1", portfolio.tri1);
+    criarCards("linksTri2", portfolio.tri2);
+    criarCards("linksTri3", portfolio.tri3);
+
+    // Abre o 1º trimestre ao carregar, se quiser trocar é só alterar aqui.
+    // mostrarTrimestre("tri1");
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+  <style>
+    :root{
+      --preto:#0b0b0f;
+      --preto2:#14141b;
+      --verde:#0f8b3d;
+      --amarelo:#ffd400;
+      --amarelo2:#ffe766;
+      --branco:#f5f5f5;
+      --cinza:#b8b8b8;
+      --card:#17171f;
+      --card2:#20202b;
+      --borda:rgba(255, 212, 0, 0.25);
+      --sombra:0 18px 50px rgba(0,0,0,.45);
+    }
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      background:
+        radial-gradient(circle at top, rgba(255,212,0,.12), transparent 30%),
+        radial-gradient(circle at bottom, rgba(15,139,61,.12), transparent 35%),
+        linear-gradient(180deg, var(--preto), #11131a 60%, #0a0a0d);
+      color:var(--branco);
+      min-height:100vh;
+      overflow-x:hidden;
+    }
+
+    .container{
+      width:min(1200px, 92%);
+      margin:0 auto;
+      padding:24px 0 60px;
+    }
+
+    /* Topo / hero */
+    .hero{
+      position:relative;
+      min-height:92vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      border-radius:28px;
+      overflow:hidden;
+      background:
+        linear-gradient(135deg, rgba(15,139,61,.10), rgba(255,212,0,.06)),
+        linear-gradient(180deg, rgba(0,0,0,.25), rgba(0,0,0,.65));
+      border:1px solid rgba(255,255,255,.06);
+      box-shadow:var(--sombra);
+      padding:32px 18px;
+    }
+
+    .hero::before{
+      content:"";
+      position:absolute;
+      inset:-2px;
+      background:
+        linear-gradient(120deg, transparent 0 42%, rgba(255,212,0,.14) 42% 50%, transparent 50% 100%),
+        linear-gradient(300deg, transparent 0 56%, rgba(15,139,61,.15) 56% 64%, transparent 64% 100%);
+      pointer-events:none;
+    }
+
+    .hero-inner{
+      position:relative;
+      z-index:1;
+      width:100%;
+      max-width:1050px;
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap:28px;
+      align-items:center;
+    }
+
+    .brand-line{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      padding:10px 16px;
+      border:1px solid rgba(255,255,255,.08);
+      background:rgba(255,255,255,.04);
+      border-radius:999px;
+      color:var(--amarelo2);
+      font-size:.95rem;
+      letter-spacing:.5px;
+      margin-bottom:18px;
+      backdrop-filter: blur(8px);
+    }
+
+    .flag{
+      width:12px;
+      height:12px;
+      border-radius:50%;
+      background:var(--amarelo);
+      box-shadow:0 0 16px rgba(255,212,0,.85);
+      flex:0 0 auto;
+    }
+
+    h1{
+      font-size:clamp(2.6rem, 6vw, 5.2rem);
+      line-height:0.95;
+      margin-bottom:14px;
+      text-shadow:0 0 18px rgba(255,212,0,.18);
+    }
+
+    .title-accent{
+      color:var(--amarelo);
+      display:block;
+    }
+
+    .subtitle{
+      font-size:clamp(1rem, 2vw, 1.2rem);
+      line-height:1.7;
+      color:#d9d9df;
+      max-width:58ch;
+      margin:0 auto 28px;
+    }
+
+    .school{
+      font-size:clamp(1rem, 1.6vw, 1.15rem);
+      color:var(--cinza);
+      margin-top:6px;
+      letter-spacing:.4px;
+    }
+
+    .hero-card{
+      background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:24px;
+      box-shadow:var(--sombra);
+      padding:18px;
+      backdrop-filter: blur(10px);
+    }
+
+    .photo-box{
+      position:relative;
+      aspect-ratio: 4 / 5;
+      border-radius:20px;
+      overflow:hidden;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,.08), rgba(0,0,0,.55)),
+        linear-gradient(135deg, rgba(15,139,61,.25), rgba(255,212,0,.14));
+      border:1px solid rgba(255,255,255,.08);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .photo-box img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+
+    .photo-placeholder{
+      position:absolute;
+      inset:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:18px;
+      color:#f0f0f0;
+      font-size:1rem;
+      line-height:1.6;
+      background:linear-gradient(180deg, rgba(0,0,0,.22), rgba(0,0,0,.6));
+    }
+
+    .cta-row{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:14px;
+      margin-top:30px;
+    }
+
+    .btn{
+      appearance:none;
+      border:none;
+      cursor:pointer;
+      padding:15px 22px;
+      border-radius:16px;
+      font-size:1rem;
+      font-weight:700;
+      color:#111;
+      background:linear-gradient(135deg, var(--amarelo), #fff06f);
+      box-shadow:0 10px 26px rgba(255,212,0,.18);
+      transition:.25s ease;
+      min-width:190px;
+    }
+
+    .btn:hover{
+      transform:translateY(-3px);
+      box-shadow:0 14px 28px rgba(255,212,0,.25);
+    }
+
+    .btn.secondary{
+      color:var(--branco);
+      background:linear-gradient(135deg, rgba(15,139,61,.95), rgba(7,94,41,.95));
+      border:1px solid rgba(255,255,255,.08);
+    }
+
+    .sections{
+      margin-top:26px;
+      display:grid;
+      gap:22px;
+    }
+
+    .panel{
+      display:none;
+      background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:28px;
+      box-shadow:var(--sombra);
+      overflow:hidden;
+    }
+
+    .panel.active{
+      display:block;
+      animation:fadeUp .35s ease;
+    }
+
+    @keyframes fadeUp{
+      from{opacity:0; transform:translateY(8px);}
+      to{opacity:1; transform:translateY(0);}
+    }
+
+    .panel-header{
+      padding:24px 22px;
+      background:
+        linear-gradient(90deg, rgba(255,212,0,.12), rgba(15,139,61,.08));
+      border-bottom:1px solid rgba(255,255,255,.06);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      flex-wrap:wrap;
+    }
+
+    .panel-title{
+      font-size:clamp(1.5rem, 3vw, 2.2rem);
+      color:var(--amarelo);
+    }
+
+    .panel-desc{
+      color:#d0d0d8;
+      font-size:.98rem;
+    }
+
+    .panel-body{
+      padding:24px 22px 28px;
+    }
+
+    .image-area{
+      border:2px dashed rgba(255,212,0,.45);
+      border-radius:24px;
+      overflow:hidden;
+      background:rgba(0,0,0,.18);
+      min-height:280px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      margin-bottom:24px;
+      position:relative;
+    }
+
+    .image-area img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+
+    .image-placeholder{
+      position:absolute;
+      inset:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:300px;
+      color:#cfcfd6;
+      font-size:1rem;
+      line-height:1.6;
+      background:linear-gradient(180deg, rgba(0,0,0,.1), rgba(0,0,0,.42));
+    }
+
+    .links-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+      gap:18px;
+    }
+
+    .link-card{
+      background:linear-gradient(180deg, var(--card2), var(--card));
+      border:1px solid var(--borda);
+      border-radius:20px;
+      padding:18px;
+      box-shadow:0 10px 30px rgba(0,0,0,.24);
+      transition:.25s ease;
+      min-height:168px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+    }
+
+    .link-card:hover{
+      transform:translateY(-4px);
+      border-color:rgba(255,212,0,.45);
+    }
+
+    .link-card h3{
+      font-size:1.08rem;
+      margin-bottom:10px;
+      color:#fff;
+    }
+
+    .link-card p{
+      color:#c9c9d2;
+      font-size:.95rem;
+      line-height:1.55;
+      margin-bottom:14px;
+      word-break:break-word;
+    }
+
+    .link-card a{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      text-decoration:none;
+      font-weight:700;
+      color:#111;
+      background:linear-gradient(135deg, var(--amarelo), #fff06f);
+      padding:12px 14px;
+      border-radius:14px;
+      transition:.25s ease;
+    }
+
+    .link-card a:hover{
+      transform:translateY(-2px);
+    }
+
+    .top-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      align-items:center;
+      justify-content:flex-end;
+    }
+
+    .mini-btn{
+      border:none;
+      cursor:pointer;
+      padding:12px 15px;
+      border-radius:14px;
+      font-weight:700;
+      color:var(--branco);
+      background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.07);
+      transition:.2s ease;
+    }
+
+    .mini-btn:hover{
+      background:rgba(255,255,255,.12);
+    }
+
+    .footer{
+      margin-top:18px;
+      text-align:center;
+      color:#a7a7b0;
+      font-size:.95rem;
+      padding:8px 0 0;
+    }
+
+    @media (max-width: 900px){
+      .hero-inner{
+        grid-template-columns:1fr;
+      }
+      .hero{
+        padding-top:42px;
+        padding-bottom:42px;
+      }
+    }
+
+    @media (max-width: 640px){
+      .container{
+        width:min(100%, 94%);
+      }
+      .panel-header{
+        align-items:flex-start;
+      }
+      .btn{
+        min-width:100%;
+      }
+      .top-actions{
+        width:100%;
+        justify-content:flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- TELA PRINCIPAL -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <div class="brand-line">
+            <span class="flag"></span>
+            Portfólio com tema Ayrton Senna
+          </div>
+
+          <h1>
+            <span class="title-accent">Meu Portfólio</span>
+          </h1>
+
+          <p class="subtitle">
+       Uma pagina dedicada a mostrar meus trabalhos escolares do ano letivo
+          </p>
+
+          <div class="school">Colégio Estadual Unidade Polo 3A</div>
+
+          <div class="cta-row">
+            <button class="btn" onclick="mostrarTrimestre('tri1')">1º Trimestre</button>
+            <button class="btn secondary" onclick="mostrarTrimestre('tri2')">2º Trimestre</button>
+            <button class="btn" onclick="mostrarTrimestre('tri3')">3º Trimestre</button>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="photo-box">
             <!-- COLOQUE SUA IMAGEM PRINCIPAL AQUI -->
             <!-- Exemplo: <img src="sua-imagem.jpg" alt="Ayrton Senna"> -->
             <img src="./foto-de-ayrton-senna-.jpg" alt="Ayrton Senna do Brasil" id="heroImage">
